@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+.heading {
+  color: #f0bb03;
+  font-size: 60px;
+  font-family: Bree Serif;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 85px;
+  }
+}
+
+.title {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+}
+.subscribe-btn {
+  background-color: #ffffff;
+  color: #1e293b;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .subscribe-btn {
+    font-size: 15px;
+  }
+}
